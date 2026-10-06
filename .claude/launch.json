@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "petale-dev",
+      "runtimeExecutable": "node_modules/.bin/vite.cmd",
+      "runtimeArgs": ["dev", "--host", "127.0.0.1", "--port", "8080"],
+      "port": 8080
+    }
+  ]
+}

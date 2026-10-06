@@ -103,7 +103,7 @@ function Navbar() {
       </div>
       <AnimatePresence>
         {open && (
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="fixed inset-0 z-60 overflow-y-auto bg-ink px-7 pt-5 pb-10 text-paper xl:hidden">
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="fixed top-0 left-0 z-60 h-dvh w-screen overflow-y-auto bg-ink px-7 pt-5 pb-10 text-paper xl:hidden">
             <div className="flex items-center justify-between gap-4">
               <Link to="/" onClick={() => setOpen(false)} className="brand inline-block py-1 pr-3 pl-1 text-[2rem] leading-[1.4]">
                 Petalé
