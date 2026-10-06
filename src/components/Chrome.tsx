@@ -257,7 +257,6 @@ function Footer({ path }: { path: string }) {
             <span className="flex gap-4">
               <Link to="/privacy">Privacy</Link>
               <Link to="/terms">Terms</Link>
-              <Link to="/sitemap">Sitemap</Link>
             </span>
           </div>
         </div>
